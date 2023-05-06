@@ -9,14 +9,14 @@ const Login = () => {
             <h2 className='--color-danger'>Login</h2>
             <div className="--form-control">
                 <input type="text" placeholder='Username' className='--width-100' />
-                <div className="password" className='--mb'>
+                <div className="password">
                     <input type="password" placeholder='Password' className='--width-100' />
                     <div className="icon">
                         <AiOutlineEye />
-                        <AiOutlineEyeInvisible />
+                        {/* <AiOutlineEyeInvisible /> */}
                     </div>
                 </div>
-                <button className='--btn --btn-danger --btn-block --mt'>Login</button>
+                <button className='--btn --btn-danger --btn-block'>Login</button>
             </div>
         </div>
     </section>
