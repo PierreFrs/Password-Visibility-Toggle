@@ -1,10 +1,11 @@
 import "./App.scss";
+import Login from "./components/login/Login";
 
 function App() {
   return (
-    <section classNam>
-
-    </section>
+    <div>
+      <Login />
+    </div>
   );
 }
 
