@@ -4,19 +4,19 @@ import {AiOutlineEye, AiOutlineEyeInvisible} from 'react-icons/ai'
 
 const Login = () => {
   return (
-    <section className='login'>
-        <div className="--card">
-            <h2>Login</h2>
+    <section className='login --center-all --100vh'>
+        <div className="--card --bg-light --p">
+            <h2 className='--color-danger'>Login</h2>
             <div className="--form-control">
-                <input type="text" placeholder='Username' />
-                <div className="password">
-                    <input type="password" placeholder='Password' />
+                <input type="text" placeholder='Username' className='--width-100' />
+                <div className="password" className='--mb'>
+                    <input type="password" placeholder='Password' className='--width-100' />
                     <div className="icon">
                         <AiOutlineEye />
                         <AiOutlineEyeInvisible />
                     </div>
                 </div>
-                <button>Login</button>
+                <button className='--btn --btn-danger --btn-block --mt'>Login</button>
             </div>
         </div>
     </section>
